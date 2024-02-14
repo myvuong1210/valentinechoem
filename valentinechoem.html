@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="thiepvalentine">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="./favicon.ico">
+    <title>Happy Valentine's Day! ❤</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/css01.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+</head>
+
+<body ng-controller="valentine_ctrl">
+<div id="falling-hearts">
+<div class="container-fluid ">
+    <div class="container" style="margin-left: 800px">
+        <button id="yeuemtramy" class="btn btn-md btn-success" data-toggle="modal" data-target="#myModal">
+            <i class="bg-info" aria-hidden="true"></i>
+            OPEN VALENTINE GIFTS HERE!
+        </button>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+
+                            <div class="row">
+                                <div class="form-group">
+                                    <h4 class="modal-title text-success bg-success col-xs-12" id="myModalLabel">Valentine gift:
+                                        <button id="play" class="btn btn-danger btn-lg"
+                                                ng-click="audio.paused ? audio.play() : audio.pause()">
+                                            <i class="fa fa-play" aria-hidden="true"></i>
+                                            Năm ấy
+                                        </button>
+                                        <button id="stop" class="btn btn-success btn-sm" ng-click="audio.restart()">
+                                            <i class="fa fa-stop" aria-hidden="true"></i>
+                                        </button>
+
+                                    </h4>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <h1 class="heading">
+                                <div class="containeri ">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val5.jpg" style="margin-left: -10px">
+                                </div>
+                            </h1>
+                            <div class="containeri">
+
+                                <div class="containeri">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/anhvalentine.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val7.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val6.jpg" style="margin-left: -10px">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/valmyvuong.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val11.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val12.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val13.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val14.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val15.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val16.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val17.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val18.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val27.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val19.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val20.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val21.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val22.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val23.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val24.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val25.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val26.jpg">
+                                    <img class="img img-responsive text-center col-xs-12 col-md-12 col-sm-12 col-lg-12"
+                                         src="img/valentine/val1.png">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid footer navbar-fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-left heading">
+                        Cảm ơn em đã đến và mang lại cho anh nhiều niềm vui kể từ khi quen biết em. Chúc em có Ngày lễ Tình yêu ngọt ngào, hạnh phúc và ngày càng xinh đẹp, trẻ trung.
+                        Một ngày Valentine thật vui vẻ nhé. Anh nhớ em nhiều ❤️
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/angular.audio.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/snowstorm-min.js"></script>
+    <script src="js/js01.js"></script>
+</div>
+</div>
+</body>
+
+</html>
